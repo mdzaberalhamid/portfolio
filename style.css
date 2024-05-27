@@ -235,3 +235,35 @@ footer {
     text-align: center;
     line-height: 80px;
 }
+
+/* Responsive Part CSS */
+
+/* Screen below 425px */
+
+@media only screen and (max-width: 425px) {
+
+    .header_intro {
+        width: 100%;
+    }
+
+    nav ul {
+        padding-top: 20px;
+    }
+
+    .header_intro nav, .header_intro p, h1 {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .header_img {
+        width: 100%;
+    }
+
+    .contact .div1 {
+        width: 100%;
+    }
+
+    .contact .div2 {
+        display: none;
+    }
+}
