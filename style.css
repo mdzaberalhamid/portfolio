@@ -303,6 +303,35 @@ footer {
         border-radius: 5px;
     }
 
+    .portfolio {
+        height: 1680px;
+    }
+
+    .portfolio h2 {
+        font-size: 36px !important;
+    }
+
+    .div_portfolio {
+        display: block;
+        padding: 0 40px;
+    }
+
+    .div_portfolio div {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .div_portfolio h4 {
+        margin-top: 0;
+        font-size: 24px !important;
+        margin-top: 10px;
+        /* background-color: tomato; */
+    }
+
+
+
+
     .contact .div1 {
         width: 100%;
     }
