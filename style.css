@@ -330,7 +330,7 @@ footer {
     }
 
     .contact {
-        height: 480px;
+        height: 600px;
     }
 
     .contact .div1 {
@@ -342,6 +342,7 @@ footer {
         text-align: center;
         padding-right: 0;
         font-size: 36px !important;
+        padding-bottom: 40px;
     }
 
     .contact .div1 h3 {
@@ -362,7 +363,7 @@ footer {
     }
 
     .contact .div1 ul {
-        padding-top: 60px;
+        padding-top: 100px;
         padding-left: 35%;
     }
 
