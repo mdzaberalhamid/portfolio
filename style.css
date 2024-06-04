@@ -65,11 +65,18 @@ nav ul li:hover a {
     padding-top: 180px;
     /* padding-bottom: 50px; */
     /* background-color: #647E68; */
+    color: #D8D8D8;
 }
 .header_intro h1 {
     padding-top: 20px;
     padding-bottom: 80px;
+    color: #D8D8D8;
 }
+
+.header_intro p {
+    color: #D8D8D8;
+}
+
 .header_img {
     width: 50%;
     height: 100vh;
@@ -376,6 +383,51 @@ footer {
     }
 
     footer p {
+        padding: 20px 40px;
+    }
+}
+
+/* For Tablet */
+
+@media only screen and (max-width: 768px) {
+
+    .header_intro nav, .header_intro p, h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav ul {
+        padding-top: 20px;
+    }
+
+    .header_intro p.greet {
+        font-size: 24px;
+    }
+
+    .header_intro h1 {
+        font-size: 36px;
+    }
+
+    /* .header_intro p {
+        font-size: 18px !important;
+    } */
+
+    .header_img img {
+        src: url('/Images/my_pic_3_edit_2.jpg') !important;
+    }
+
+    .about_me h2 {
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+
+    .about_me p {
         padding: 20px;
     }
+
+    .about_me a {
+        margin-top: 10px;
+    }
+
 }
