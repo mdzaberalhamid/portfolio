@@ -245,149 +245,30 @@ footer {
 
 /* Responsive Part CSS */
 
-/* Screen below 425px */
+/* Screen Max 1024px */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1024px) {
 
-    .header_intro {
-        width: 100%;
-    }
-
-    nav ul {
-        padding-top: 40px;
+    .header_intro nav, .header_intro p, h1 {
+        padding-left: 60px;
+        padding-right: 40px;
     }
 
     nav ul li a {
-        padding: 5px 10px;
-    }
-
-    .header_intro nav, .header_intro p, h1 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .header_intro p.greet {
-        padding-top: 120px;
-        font-size: 30px;
+        font-size: 20px;
+        padding: 10px;
     }
 
     .header_intro h1 {
-        padding-top: 40px;
-        padding-bottom: 80px;
-        font-size: 42px;
+        padding-bottom: 100px;
     }
 
-    .header_intro p {
-        font-size: 20px !important;
-    }
-
-    .header_img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .about_me {
-        height: 650px;
-    }
-
-    .about_me h2 {
-        padding-top: 20px;
-        margin-bottom: 20px;
-        font-size: 36px !important;
-    }
-
-    .about_me p {
-        padding-top: 0;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 16px !important;
-        text-align: start;
-    }
-
-    .about_me a {
-        margin-top: 20px;
-        padding: 5px 20px;
-        border-radius: 5px;
-    }
-
-    .portfolio {
-        height: 1680px;
-    }
-
-    .portfolio h2 {
-        font-size: 36px !important;
-    }
-
-    .div_portfolio {
-        display: block;
-        padding: 0 40px;
-    }
-
-    .div_portfolio div {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-
-    .div_portfolio h4 {
-        margin-top: 0;
+    .header_intro p.roles {
         font-size: 24px !important;
-        margin-top: 10px;
-        /* background-color: tomato; */
-    }
-
-    .contact {
-        height: 600px;
-    }
-
-    .contact .div1 {
-        width: 100%;
-        height: 560px;
-    }
-
-    .contact .div1 h2 {
-        text-align: center;
-        padding-right: 0;
-        font-size: 36px !important;
-        padding-bottom: 40px;
-    }
-
-    .contact .div1 h3 {
-        padding-top: 20px;
-        font-size: 30px;
-        /* text-align: center; */
-        padding-left: 20px;
-    }
-
-    .contact .div1 p {
-        padding-top: 10px;
-        /* padding-left: 130px; */
-        text-align: center;
-    }
-
-    .contact .left_padding {
-        padding: 0;
-    }
-
-    .contact .div1 ul {
-        padding-top: 100px;
-        padding-left: 35%;
-    }
-
-    .contact .div2 {
-        display: none;
-    }
-
-    footer {
-        line-height: normal;
-    }
-
-    footer p {
-        padding: 20px 40px;
     }
 }
 
-/* For Tablet */
+/* For Tablet Screen Max 768px */
 
 @media only screen and (max-width: 768px) {
 
@@ -488,4 +369,151 @@ footer {
         line-height: 60px;
     }
 
+}
+
+/* Screen below 425px */
+
+@media only screen and (max-width: 425px) {
+
+    .header_intro {
+        width: 100%;
+    }
+
+    nav ul {
+        padding-top: 40px;
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+    }
+
+    .header_intro nav, .header_intro p, h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header_intro p.greet {
+        padding-top: 120px;
+        font-size: 30px;
+    }
+
+    .header_intro h1 {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        font-size: 42px;
+    }
+
+    .header_intro p {
+        font-size: 20px !important;
+    }
+
+    .header_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_me {
+        height: 650px;
+    }
+
+    .about_me h2 {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        font-size: 36px !important;
+    }
+
+    .about_me p {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px !important;
+        text-align: start;
+    }
+
+    .about_me p.md {
+        padding-bottom: 20px;
+    }
+
+    .about_me a {
+        margin-top: 40px;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+
+    .portfolio {
+        height: 1680px;
+    }
+
+    .portfolio h2 {
+        font-size: 36px !important;
+    }
+
+    .div_portfolio {
+        display: block;
+        padding: 0 40px;
+    }
+
+    .div_portfolio div {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .div_portfolio h4 {
+        margin-top: 0;
+        font-size: 24px !important;
+        margin-top: 10px;
+        /* background-color: tomato; */
+    }
+
+    .contact {
+        height: 600px;
+    }
+
+    .contact .div1 {
+        width: 100%;
+        height: 560px;
+    }
+
+    .contact .div1 h2 {
+        text-align: center;
+        padding-right: 0;
+        font-size: 36px !important;
+        padding-bottom: 40px;
+    }
+
+    .contact .div1 h3 {
+        padding-top: 20px;
+        font-size: 30px;
+        /* text-align: center; */
+        padding-left: 20px;
+    }
+
+    .contact .div1 p {
+        padding-top: 10px;
+        /* padding-left: 130px; */
+        text-align: center;
+    }
+
+    .contact .left_padding {
+        padding: 0;
+    }
+
+    .contact .div1 ul {
+        padding-top: 100px;
+        padding-left: 35%;
+    }
+
+    .contact .div2 {
+        display: none;
+    }
+
+    footer {
+        line-height: normal;
+    }
+
+    footer p {
+        padding: 10px 30px;
+    }
 }
