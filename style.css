@@ -400,6 +400,10 @@ footer {
         padding-top: 20px;
     }
 
+    nav ul li a {
+        padding: 8px 10px;
+    }
+
     .header_intro p.greet {
         font-size: 24px;
     }
@@ -426,8 +430,62 @@ footer {
         padding: 20px;
     }
 
+    .about_me p.md {
+        padding-bottom: 0;
+    }
+
     .about_me a {
-        margin-top: 10px;
+        margin-top: 30px;
+    }
+
+    .portfolio h2 {
+        font-size: 36px;
+    }
+
+    .div_portfolio {
+        padding: 0 20px;
+    }
+
+    .div_portfolio div {
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .div_portfolio h4 {
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    .contact {
+        height: 100vh;
+    }
+
+    .contact .div1, .contact .div2 {
+        width: 50%;
+        height: 531px;
+    }
+
+    .contact .div1 h2 {
+        font-size: 36px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .contact .div1 h3 {
+        font-size: 30px;
+    }
+
+    .contact .left_padding {
+        padding-left: 20px;
+    }
+
+    .contact .div1 ul {
+        padding-top: 60px;
+    }
+
+    footer {
+        height: 60px;
+        line-height: 60px;
     }
 
 }
